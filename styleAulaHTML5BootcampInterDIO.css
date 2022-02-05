@@ -1,0 +1,76 @@
+body {
+    background-color: #f7f7f7;
+    font-family: Verdana;
+    width:900px;
+    margin:auto;
+    max-width:900px;
+}
+#h1Title, .subTitle, .postTitle {
+    color:#505050;
+}
+#title {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: underline;
+    color:#505050;
+}
+.textHeader {
+    line-height: 100%;
+}
+.header {
+    height:200px; line-height:200px;
+}
+.titleImg {
+    float:left;
+}
+.titleImg, .postImg {
+    border-radius: 50%;
+    border:1px solid #505050;
+}
+.postTitle {
+    font-size:16px;
+    font-style: italic;
+    margin:0;
+    margin-bottom: 15px;
+}
+.post {
+    background:#fff;
+    padding: 15px;
+    border:3px solid #505050;
+    margin-bottom: 15px;
+    border-radius:10px;
+}
+.postContent {
+    margin:0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+.postImg {
+    margin-bottom: 15px;
+}
+/*
+.contactsList .iconEmail {
+    list-style-type: "\1F4ED";
+}
+.contactsList .iconGithub {
+    list-style-type: "\1F44D";
+}
+.contactsList .iconLinkedin {
+    list-style-type: "\1F44D";
+}
+*/
+.contactsList .iconEmail {
+    list-style-image: url("iconGmail.png");
+}
+.contactsList .iconGithub {
+    list-style-image: url('iconGithub.png');
+}
+.contactsList .iconLinkedin {
+    list-style-image: url("iconLinkedin.png");
+}
+.contactsList li a {
+    text-decoration: none;
+}
